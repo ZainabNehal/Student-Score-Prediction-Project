@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "student-score-predictor"
+version = "0.1.0"
+description = "Predict student exam scores based on study hours and attendance."
+authors = [
+  { name="Aryan", email="aryan@example.com" }
+]
+dependencies = [
+  "pandas",
+  "scikit-learn",
+  "matplotlib",
+  "seaborn",
+  "streamlit"
+]
+
+[tool.black]
+line-length = 88
