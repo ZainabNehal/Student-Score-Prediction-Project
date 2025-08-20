@@ -58,3 +58,4 @@ streamlit run app.py
 📊 Expected Output
 
 Enter Hours_Studied = 4 and Attendance = 80%
+Deployed streamlit app link- https://student-score-prediction-project-ev6ucjuqgjxzoef42m7ruj.streamlit.app/
